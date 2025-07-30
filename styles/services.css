@@ -1,0 +1,51 @@
+#services {
+  background-color: var(--gray-600);
+  padding-block: 5.5rem  7.5rem;
+}
+
+#services header {
+  text-align: center;
+
+  & p:first-child {
+    font: var(--subtitle);
+    color: var(--red);
+  }
+
+  & h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+    margin-top: .5rem;
+  }
+}
+
+#services header + div {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.skill-card {
+  width: 280px;
+  border: 1px solid var(--gray-500);
+  border-radius: .75rem;
+  padding: 1.25rem;
+
+  & img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+
+  & h3 {
+    margin-top: 1.25rem;
+    font: var(--title-sm);
+    color: var(--gray-100);
+  }
+
+  & p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    margin-top: .5rem;
+  }
+
+}
