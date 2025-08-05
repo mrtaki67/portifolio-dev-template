@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-Projeto de um Portifólio para Dev desenvolvido durante as aulas sobre Formulários na Rocketseat.
+Projeto de um Portifólio para Dev desenvolvido durante as aulas sobre Flex na Rocketseat.
 </p>
 
 <p align="center">
